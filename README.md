@@ -73,7 +73,7 @@ shree-fruit-app/
 ## 🚀 How to Run Locally
 
 ### Prerequisites
-- Java 21+
+- Java 17+
 - MySQL
 - Maven
 
@@ -92,8 +92,8 @@ CREATE DATABASE shreefruit_db;
 
 # 4. Configure application.properties
 spring.datasource.url=jdbc:mysql://localhost:3306/shreefruit_db
-spring.datasource.username=root
-spring.datasource.password=YOUR_PASSWORD
+spring.datasource.username=W1_92793_Nikhil
+spring.datasource.password=manager
 
 # 5. Run the app
 mvn spring-boot:run
